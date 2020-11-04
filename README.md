@@ -34,3 +34,12 @@ Level ID | Aggregation Level | Number of Series |
 11 | Unit sales of product x, aggregated for each State | 9,147 |
 12 | Unit sales of product x, aggregated for each store | 30,490 |
 13 | Total | 42, 840 |
+
+### The historical data range from 2011-01-29 to 2016-06-19. Thus, the products have a (maximum) selling history of 1,941  days / 5.4 years (test data of h=28 days not included). 
+
+## Our Approches
+We will be building 4 models across various domains: <br>
+- Probabilistic Naive Approach
+- Time Series Modelling
+- Machine Learning 
+- Deep Learning
