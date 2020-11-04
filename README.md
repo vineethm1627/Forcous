@@ -15,8 +15,22 @@ This dataset includes the unit sales of various products sold in the USA, organi
 - The dataset involves the unit sales of 3,049 products classified in 3 product categories [Hobbies, Foods, Household] and 7 product departments in which the above 3 product categories are disaggregated.<br>
 - The products are sold across 10 stores located in 3 states [CA, TX, WI].
 
+<b> Hierarchical Item ordering </b>
+<img src="items_tree.png"></img>
 
-
-
-
-
+<b> Number of Series per aggregation level </b> <br>
+Level ID | Aggregation Level | Number of Series |
+---------|-------------------|------------------|
+1 | Unit sales of all products, aggregated for all stores/states | 1 |
+2 | Unit sales of all products, aggregated for each State | 3 |
+3 | Unit sales of all products, aggregated for each store | 10 |
+4 | Unit sales of all products, aggregated for each category | 3 |
+5 | Unit sales of all products, aggregated for each department | 7 |
+6 | Unit sales of all products, aggregated for each State and category | 9 |
+7 | Unit sales of all products, aggregated for each State and department | 21 |
+8 | Unit sales of all products, aggregated for each store and category | 30 |
+9 | Unit sales of all products, aggregated for each store and department | 70 |
+10 | Unit sales of product x, aggregated for all stores/states | 3,049 |
+11 | Unit sales of product x, aggregated for each State | 9,147 |
+12 | Unit sales of product x, aggregated for each store | 30,490 |
+13 | Total | 42, 840 |
