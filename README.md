@@ -37,7 +37,7 @@ Level ID | Aggregation Level | Number of Series |
 
 ### The historical data range from 2011-01-29 to 2016-06-19. Thus, the products have a (maximum) selling history of 1,941  days / 5.4 years (test data of h=28 days not included). 
 
-## Our Approches
+## Our Approaches
 We will be building 4 models across various domains: <br>
 - Probabilistic Naive Approach
 - Time Series Modelling
