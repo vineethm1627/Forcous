@@ -35,6 +35,10 @@ Level ID | Aggregation Level | Number of Series |
 12 | Unit sales of product x, aggregated for each store | 30,490 |
 13 | Total | 42, 840 |
 
+```level_groupings = {2: ["state_id"], 3: ["store_id"], 4: ["cat_id"], 5: ["dept_id"], 
+              6: ["state_id", "cat_id"], 7: ["state_id", "dept_id"], 8: ["store_id", "cat_id"], 9: ["store_id", "dept_id"],
+              10: ["item_id"], 11: ["item_id", "state_id"]}
+```
 ### The historical data range from 2011-01-29 to 2016-06-19. Thus, the products have a (maximum) selling history of 1,941  days / 5.4 years (test data of h=28 days not included). 
 
 ## Our Approaches
