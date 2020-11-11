@@ -50,12 +50,12 @@ We will be building 4 models across various domains: <br>
 
 ## Our Results
 
-SNo | Approach | Type | WRMSSE |
-----|----------|------|--------|
-1 | LightGBM | Machine Learning |  |
-2 | FaceBook Prophet | Machine Learning |  |
-3 | ARIMA | Time Series |  |  
-4 | LSTM | Deep Learning | |
-5 | Stacked LSTM | Deep Learning | |
-6 | Bidirectional LSTM | Deep Learning | |
-7 | 30 Days Average | Naive | |
+SNo | Approach | WRMSSE |
+----|----------|--------|
+1 | LightGBM | 0.49608 |
+2 | FaceBook Prophet | 0.63419 |
+3 | ARIMA | 0.78013 |  
+4 | LSTM | |
+5 | Stacked LSTM | |
+6 | Bidirectional LSTM | 1.05585 |
+7 | 30 Days Average | Naive | 1.07118 | 
