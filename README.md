@@ -47,3 +47,15 @@ We will be building 4 models across various domains: <br>
 - Time Series Modelling
 - Machine Learning 
 - Deep Learning
+
+## Our Results
+
+SNo | Approach | Type | WRMSSE |
+----|----------|------|--------|
+1 | LightGBM | Machine Learning |  |
+2 | FaceBook Prophet | Machine Learning |  |
+3 | ARIMA | Time Series |  |  
+4 | LSTM | Deep Learning | |
+5 | Stacked LSTM | Deep Learning | |
+6 | Bidirectional LSTM | Deep Learning | |
+7 | 30 Days Average | Naive | |
