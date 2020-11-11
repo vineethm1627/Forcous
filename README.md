@@ -58,4 +58,4 @@ SNo | Approach | WRMSSE |
 4 | LSTM | |
 5 | Stacked LSTM | |
 6 | Bidirectional LSTM | 1.05585 |
-7 | 30 Days Average | Naive | 1.07118 | 
+7 | 30 Days Average | 1.07118 | 
