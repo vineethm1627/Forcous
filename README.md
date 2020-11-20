@@ -54,7 +54,7 @@ SNo | Approach | WRMSSE |
 ----|----------|--------|
 1 | LightGBM | 0.49608 |
 2 | FaceBook Prophet | 0.63419 |
-3 | Stacked LSTM | 074118 |
+3 | Stacked LSTM | 0.74118 |
 4 | ARIMA | 0.78013 |  
 5 | Same as last 28 days | 0.85582 |
 6 | Average of same day in historical years | 0.971497 |
