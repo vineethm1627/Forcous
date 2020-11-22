@@ -8,6 +8,14 @@ The objective of the M5 forecasting competition is to advance the theory and pra
 This competition aims to forecast daily unit sales for the next 28 days ie. till 22nd May 2016.
 
 ## Dataset
+
+Files :
+- calendar.csv - contains information about the dates on which the products are sold along with special events and its type. Also includes SNAP events.
+- sales_train_validation.csv - contains the historical daily unit sales data per product and store [d_1 to d_1913]
+- sell_prices.csv - contains information about the price of the products sold per store and date.
+- sales_train_evaluation.csv - includes the sales of range [d_1 to d_1941] ie. 28 days ahead of 1913.
+- sample_submission.csv - Submission for the 28 days ahead forecast.
+
 The dataset is made available by Walmart, one of the biggest retail corporation in the world. <br>
 This dataset includes the unit sales of various products sold in the USA, organized in the form of grouped time series. <br>
 
